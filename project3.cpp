@@ -1,12 +1,3 @@
-/*
-============================================================================
-Name 	    : project3.cpp
-Author 	    : Aaron Shehan
-Version     : 1.0.0
-Copyright   : 2018
-Description : This program allows a user to play connect 4 with the computer.
-============================================================================
-*/
 
 #include <iostream>
 #include <ctime>
