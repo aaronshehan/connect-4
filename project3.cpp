@@ -19,14 +19,6 @@ Return	    : NA
 Description : This functino prints the header.
 ============================================================================
 */
-void Header()
-{
-	cout << "\t +----------------------------------------------+\n";
-	cout << "\t |       Computer Science and Engineering       |\n";
-	cout << "\t |        CSCE 1030 - Computer Science I        |\n";
-	cout << "\t | Aaron Shehan ats0109 aaronshehan@my.unt.edu  |\n";
-	cout << "\t +----------------------------------------------+\n"; 
-}
 
 
 /*
@@ -40,7 +32,7 @@ Description : This function prints description of the game to be played.
 void Description() 
 {
 	cout << endl;
-	cout << "\t  W e l c o me   t o   1 0 3 0   C o n n e c t" << endl; cout << endl;
+	cout << "\t  W e l c o me   t o   C o n n e c t" << endl; cout << endl;
 	cout << "------------------------------------------------------------------------" << endl;
 	cout << "This program will set up a game board to play 1030 Connect using a board " << endl;
 	cout << "where the rows are determined by the user to be between 4 and 6, inclus-" << endl;
@@ -276,7 +268,6 @@ bool tie_game_check(int gameBoard[][COLUMNS])
 int main()
 {
 	int numRows; 	//User defined number of rows
-	Header(); 	//Function call for header
 	Description();  //Function call for description of the game
 	
 	do		//loop in case user enters invalid number for rows
